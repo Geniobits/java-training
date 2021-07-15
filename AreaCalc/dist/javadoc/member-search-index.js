@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"areacalc","c":"AreaCalc","l":"AreaCalc()","url":"%3Cinit%3E()"},{"p":"areacalc","c":"AreaCalc","l":"main(String[])","url":"main(java.lang.String[])"}]

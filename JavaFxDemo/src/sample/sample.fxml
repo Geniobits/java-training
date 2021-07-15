@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane fx:controller="sample.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="286.0" style="-fx-background-color: #89D9D9;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" graphicTextGap="10.0" layoutX="85.0" layoutY="182.0" prefHeight="36.0" prefWidth="116.0" text="Login Form" textAlignment="CENTER" textFill="#731e16">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="286.0" prefHeight="400.0" prefWidth="315.0">
+         <children>
+            <TextField fx:id="textfield_username" layoutX="37.0" layoutY="144.0" prefHeight="36.0" prefWidth="234.0" promptText="Enter the username" />
+            <TextField fx:id="textfield_password" layoutX="37.0" layoutY="200.0" prefHeight="36.0" prefWidth="234.0" promptText="Enter password" />
+            <Button fx:id="button_login" layoutX="37.0" layoutY="254.0" mnemonicParsing="false" onMouseClicked="#handleLoginClicked" prefHeight="36.0" prefWidth="234.0" text="Login" textFill="#03a6a6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
